@@ -1,8 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background: #31d6c990;
+}
+
+p {
+  text-align: center;
+  color: #ea8808;
+}
+h1 {
+  color: #ea8808;
+}
 .button {
   width: 300px;
-  background: #46a358;
+  background: #ea8808;
   color: #fff;
-  border: 1px solid #46a358;
+  border: 1px solid #ea8808;
   padding: 10px;
   text-align: center;
   font-size: 16px;
@@ -16,13 +31,12 @@
 }
 
 .social-login {
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 20px;
   width: 300px;
   height: 40px;
-  margin-bottom: 20px;
   border: 1px solid #eaeaea;
   text-decoration: none;
   gap: 10px;
@@ -35,6 +49,14 @@
 }
 
 input {
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 300px;
+}
+select {
   border: 1px solid #eaeaea;
   border-radius: 5px;
   height: 40px;
