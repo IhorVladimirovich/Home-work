@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
 }
-body {
+
+.registration {
   text-align: center;
   background: #31d6c990;
 }
-
 p {
   text-align: center;
   color: #ea8808;
